@@ -34,21 +34,24 @@
                 COMUNICATE CON NOSOTROS!!!
                 </h2>
             </u>       
-            <p>
+            <center><p>
                 Si le gustaría comunicarse con alguien del personal, por favor rellene el siguiente formulario y alguien de nuestro equipo se pondrá en contacto con usted tan pronto como nos sea posible.
             </p>
+            </center>
             <br><br>
-            <form>
+        <div class="formulario">          
+            <form method="post">
                 <b>Nombre y apellido:</b>
-                <input type="text" required>
+                <input name="Nombre y apellido" type="text" required>
                 <br><br>
                 <b>Email:</b>
-                <input type="Email" required>
+                <input name="Email" type="Email" required value="Ejemplo@hotmail.com">
                 <b>Fecha:</b>
-                <input type="date" required> <br> <br>
-                <textarea name="enviar" id="" cols="80" rows="10" required>Escribí acá</textarea>
-                <input type="submit">
+                <input name="Fecha" type="date" required> <br> <br>
+                <textarea name="Mensaje del usuario" id="" cols="80" rows="10" required>Escribí acá</textarea>
+                <button type="submit">Enviar mensaje</button>
             </form>
+        </div>      
         </div>
     </section>
     <footer>

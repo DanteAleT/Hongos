@@ -69,3 +69,7 @@ nav ul li:hover::before{
     font-family: monospace;
     font-size: larger ;
 }
+video{
+    margin-left: 350px;
+    width: 800px;
+}
